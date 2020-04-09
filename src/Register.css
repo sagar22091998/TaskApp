@@ -1,0 +1,93 @@
+.Register {
+  background:#fff ;
+  width: 660px;
+  margin: 5rem auto;
+  border-radius: 1rem;
+}
+
+.Register h4{
+  text-align: center;
+  padding: 2rem 3.5rem 1rem 3.5rem;
+  border-bottom: 1px solid #ccc;
+}
+.Register h5{
+  text-align: center;
+  padding: 0rem 3.5rem 1rem 3.5rem;  
+}
+.Form-Main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem ;
+}
+/* Text Fields */
+.Form-Set label{
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.Form-Set,
+.Small-Set {
+  width: 350px;
+  margin: 0 auto;
+  padding-bottom :0.5rem ;
+
+}
+.Form-Text input{
+  margin-left: 0.75rem;
+  border: none;
+  background-color: #F1E8E6;
+}
+.Form-Text{
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  background-color: #F1E8E6;
+  padding: 0.5rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* Small Text Fields */
+
+.Small-Set label{
+  display: block;
+  margin-bottom: 0.25rem;
+}
+.Small-Set{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Form-Small-Set{
+  width: 45%;
+}
+/* .Form-Small-Text{
+  width: 75%;
+} */
+
+.Form-Small-Text input{
+  margin-left: 0.75rem;
+  border: none;
+  background-color: #F1E8E6;
+  width: 90px;
+}
+.Form-Small-Text{
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  background-color: #F1E8E6;
+  padding: 0.5rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.Register-Button{
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  background-color: #F77871;
+  padding: 0.5rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  align-self: flex-end;
+  margin: 1rem 9.5rem 1rem 0;
+  width: 90px;
+  display: flex;
+  justify-content: space-between; 
+}
